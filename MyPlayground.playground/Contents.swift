@@ -1,3 +1,5 @@
-import UIKit
+var arr = ["Summer","Autumn","Spring","Winter"]
 
-var greeting = "Hello, playground"
+var flag = arr.indices.randomElement()
+print(flag!)
+print(arr[flag!])

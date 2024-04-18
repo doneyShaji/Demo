@@ -9,9 +9,17 @@ import UIKit
 
 class mySecondViewController: UIViewController {
 
+    @IBOutlet weak var myLabel: UILabel!
+    
+    @IBOutlet weak var myImage: UIImageView!
+    //@IBOutlet weak var myImage: UIImageView!
+    var myString: String? 
+    var myDisplayImage: UIImage?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        myLabel.text = myString
+        myImage.image = myDisplayImage
         // Do any additional setup after loading the view.
     }
     
